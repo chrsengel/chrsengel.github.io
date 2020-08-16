@@ -9,7 +9,7 @@
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 title: Chris' Blog # the main title
 
-tagline: Just me - trying to understand stuff. # it will display as the sub-title
+tagline: Just me, trying to understand stuff. # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   This is my personal blog where I explore new technologies and try to understand new concepts.
