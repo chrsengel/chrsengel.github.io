@@ -9,7 +9,7 @@ For a long time now I talked about wanting to start a series where I write down 
 
 # Flutter Stuff
 
-I just recently got into Flutter development, so some of these points might be totally dumb for experienced developers. Hit me up on [Twitter](https://twitter.com/chrsengel) if you find something utterly stupid or want to get in touch.
+I just recently got into Flutter development, so some of these points might be totally dumb for experienced developers. Hit me up on [Twitter](https://twitter.com/chrsengel) if you find something utterly stupid or want to get in touch. I'd appreciate some feedback.
 
 ## Stuff that sucks
 
