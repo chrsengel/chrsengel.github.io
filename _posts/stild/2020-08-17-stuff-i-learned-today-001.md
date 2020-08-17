@@ -1,6 +1,6 @@
 ---
 title: Stuff I learned today 001
-date: 2020-08-17 15:41:00 +0200
+date: 2020-08-17 21:04:00 +0200
 categories: [stuff i learned today]
 tags: [stild, flutter, deep learning]
 ---
