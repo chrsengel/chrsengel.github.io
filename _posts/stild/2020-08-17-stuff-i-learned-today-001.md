@@ -102,12 +102,12 @@ Some of this stuff is from the "[Deep Learning Book](https://www.deeplearningboo
 - There is an AI project called [Cyc](https://en.wikipedia.org/wiki/Cyc) that aims to train a model to understand everyday knowledge. Apparently it works by explaining every object in the world and then relating these objects to each other. People started working on it in 1984 and two years ago the researchers published the latest stable release.
 - **Representation Learning** basically describes to let an algorithm decide what features best describe an object. If these were handcrafted by humans it might not be the most optimal design. And evidently, letting algorithms learn features by themselves improves performance in the Image Recognition field. However, it comes with the problem that it can't easily understand the context of these features. This is where Deep Learning comes into play.
 - Deep learning solves the problem in representation learning by splitting up complex representations into simpler representations. If I got this correct, an example could be the following: A car has four wheels and a bunch of windows. The representation learning algorithm does not easily understand that the combination of those representations result in the representation of a car. Deep learning on the other hand understands this.
-- Deep learning exists since the 1940s but it was called differently throughout the years. The history is quite interesting, so it's worth to check out the book[^book]. According to Goodfellow, the deep learning field was introduced in three waves, each different names:
+- Deep learning exists since the 1940s but it was called differently throughout the years. The history is quite interesting, so it's worth to check out the book[^book]. According to Goodfellow, the deep learning field was introduced in three waves, each with different names:
   - 1940-1960: cybernetics
   - 1980-1990: connectionism and neural networks
   - since 2006: deep learning
 - The MNIST database of handwritten digits is already 22 years old!
-- The rule of thumb for supervices deep learning algorithms:
+- The rule of thumb for superviced deep learning algorithms:
   > a supervised deep learning algorithm will generally achieve acceptable performance with around 5,000 labeled examples per category, and will match or exceed human performance when trained with a dataset containing at least 10 million labeled examples[^book]
 
 
