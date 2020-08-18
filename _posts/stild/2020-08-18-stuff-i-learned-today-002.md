@@ -30,11 +30,11 @@ I found the podcast through a twitter thread by @maraoz[^maraoz-twitter].
 
 ## Compression
 
-If you're in need of extreme compression for your files, then look no further! There's a tool called `lrzip`[^lrzip] that helps you out. I successfully halved some of my `*.tar.gz` sizes. It best works with documents.
+If you're in need of extreme compression for your files, then look no further! There's a tool called `lrzip`[^lrzip] that helps you out. I successfully halved some folders that I previously compressed with `tar`. The tool works best with documents.
 
 For maximum compression use the `-z` option. It does not work for media files however. I tried compressing a 15 GB raw image folder and only got it to ~14.8.
 
-Here's a quick comparison between the regular `tar cfvz` compression and `lrztar` on a directory full of documents.
+Here's a quick comparison between the regular `tar cfvz` compression and `lrztar -z` on a directory full of documents.
 
 ![Compression Comparison]({{ "/assets/img/stild/2020/08-18/comparison.png" | relative_url }})
 
@@ -42,11 +42,11 @@ Thanks to lrzip I could save more than a gig in my Dropbox folder. It should be 
 
 ## Sorting by size
 
-Today I wanted to find out what the largest files and folders were in a directory. Interestingly enough I could not find a quick solution online that would not list files and directories sorted subsequently. So I tried some commands and came up with the following: `du -hs * | sort -rh`.
+Today I wanted to find out what the largest files and folders were in a directory. Interestingly enough I could not find a quick solution online that would not list files and directories sorted separately. So I tried some commands and came up with the following structure: `du -hs * | sort -rh`.
 
-(Also, reading man pages sucks.)
+(Also, reading man pages sucks!)
 
-`du -hs *` lists the files and folders in the current folder and `sort -rh` sorts the columns by size. The `-h` flag stands for `--human-numeric-sort`. The `-r` flag will sort the output in descending order.
+`du -hs *` lists the files and folders in the current folder, `sort -rh` sorts the columns by size. The `-h` flag stands for `--human-numeric-sort`. The `-r` flag will sort the output in descending order.
 
 # Footnotes
 
