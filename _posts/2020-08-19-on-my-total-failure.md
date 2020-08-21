@@ -17,7 +17,7 @@ Already then, I came to the realization that this was probably not going to work
 
 # Why Did I(t) Fail?
 
-After sleeping on it for a while and talking to more people outside the field, I came to the conclusion that I made three essential mistakes right from the get go:
+After sleeping on it for a while and talking to more people outside the field, I came to the conclusion that I made four essential mistakes right from the get go:
 
 1. I started building without verification.
 2. I did not do enough research.
