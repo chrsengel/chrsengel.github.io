@@ -196,6 +196,12 @@ I attempted multiple other normalizations but none gave me better results than t
 
 # Summary
 
+The Linear Regression seems like an easy-to-understand algorithm that serves as a great entry point into machine learning. I hope I can iterate on the things I learned today in the future, as I progress with the Deep Learning Book[^book].
+
+---
+
+There is no comment section on this blog as it's just static content, but please feel free to hit me up on [Twitter](https://twitter.com/chrsengel) and tell me your best RMSE and $$R^2$$ values for the challenge!
+
 # Footnotes
 
 [^rmse-def]: [Performance Measures](https://www.datascienceblog.net/post/machine-learning/performance-measures-model-selection/)
@@ -203,3 +209,4 @@ I attempted multiple other normalizations but none gave me better results than t
 [^r-squared]: [Interpretation of $$r^2$$](https://statisticsbyjim.com/regression/interpret-r-squared-regression/)
 [^feature-scaling]: [Feature Scaling Wiki Entry](https://en.wikipedia.org/wiki/Feature_scaling)
 [^anaconda]: [Anaconda](https://docs.anaconda.com/anaconda/install/)
+[^book]: [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/)
