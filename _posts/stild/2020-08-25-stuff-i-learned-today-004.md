@@ -147,7 +147,7 @@ As we can see, the RMSE is already pretty low at `0.004481`. The $$R^2$$ value h
 
 Essentially, feature scaling can be used 'to normalize the range of independent variables or features of data'[^feature-scaling]. Since the Linear Regression algorithm uses the distance between two points to come up with an approximation function, it will run into problems if the data has a broad range of values. Feature Scaling helps mitigate this issue by making sure that 'each feature contributes approximately proportionately to the final distance'[^feature-scaling].
 
-In the example challenge I notices that both the columns 'GRE Score' and 'TOEFL Score' had two properties:
+In the challenge data I noticed, that both the columns 'GRE Score' and 'TOEFL Score' had two properties:
 
 - both highly correlate with the chance of getting admitted to the university and
 - both have a broad range of values
