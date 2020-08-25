@@ -16,7 +16,7 @@ Linear Regression is a machine learning algorithm that attempts to find the coef
 
 $$y = \sum_{i=1}^{n} w_i * x^i + b$$
 
-where $$x^i$$ defines a given features in a dataset with $$n$$ elements.
+where $$x^i$$ defines a given feature in a dataset with $$n$$ elements.
 
 ## Fitting
 
