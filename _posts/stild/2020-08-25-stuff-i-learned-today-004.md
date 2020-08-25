@@ -196,7 +196,7 @@ I attempted multiple other normalizations but none gave me better results than t
 
 # Summary
 
-The Linear Regression seems like an easy-to-understand algorithm that serves as a great entry point into machine learning. I hope I can iterate on the things I learned today in the future, as I progress with the Deep Learning Book[^book].
+The Linear Regression seems like an easy-to-understand algorithm that serves as a great entry point into the field of machine learning. I am sure I can iterate on the things I learned today in the future as I progress with the Deep Learning Book[^book] and my Bachelor thesis.
 
 ---
 
