@@ -15,4 +15,4 @@ The purpose of this blog is to improve my writing skills, share my knowledge and
 
 I am currently enrolled in Cyber Security Studies at the University of Aalen, near Stuttgart, Germany. These days I am solely working on my bachelor thesis about "morphing attacks on face recognition systems using generative adversarial networks".
 
-I also founded a company, called **Protor**, that currently provides the [Dethlify](https://dethlify.com) service. Dethlify is a blockchain based service that allows cryptocurrency holders to manage their digital inheritance in a trustless way through a beautiful interface. Check it out!
+I also founded a company, called **Protor**. The first product was the [Dethlify](https://dethlify.com) service. Dethlify was a blockchain based service that allowed cryptocurrency holders to manage their digital inheritance in a trustless way through a beautiful interface. Unfortunately it failed, see [on my total failure](https://chris-engel.com/posts/on-my-total-failure/). Currently I am working on verifying some ideas for other products.
