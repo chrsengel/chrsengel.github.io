@@ -13,8 +13,6 @@ Today with generator functions in Dart, Melatonin and a couple of interesting ar
 
 `yield` is a generator function in Dart. It can be used to output multiple values to a stream[^yield-doc]. I found this to be particularly useful while implementing the BLoC pattern in an app I was working on. By using `yield` you can use a single event to generate multiple state changes.
 
-- the `yield` keyword in flutter
-
 ## Melatonin
 
 I have long had the feeling of having a bad sleep cycle as I read and work until late in the evening and am often tired during the day. Since I got a new Galaxy Watch two weeks ago I have continuously tracked my sleeping patterns and it's astonishingly worse than I thought. On average, I sleep around 4-5 hours a night. Surprisingly it did not help to go to bed earlier. I just lie there and cannot fall a sleep. So I did some research and came across the Melatonin hormone.
