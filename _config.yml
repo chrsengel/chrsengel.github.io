@@ -200,3 +200,4 @@ sitemap_exclude: # Sitemap will exclude the following items.
 
 plugins:
   - jekyll-gist
+  - jekyll-twitter-plugin
