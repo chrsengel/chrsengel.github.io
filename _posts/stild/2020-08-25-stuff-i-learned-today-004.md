@@ -22,6 +22,8 @@ where $$x^i$$ defines a given feature in a dataset with $$n$$ elements.
 
 Fitting is the learning act of the algorithm. Simply put, the algorithm tries to figure out a function that fits well into the training data. It does so by trying out many functions with different coefficients and summing up the distance squared between the input points (the features) and the position of the current function. Once it found a function that has the lowest total sum, the model is done learning and can be used to predict values.
 
+You can think of fitting as memorizing. The longer you train your model, the more input data it memorizes which leads to overfitting.
+
 ### What can go wrong when fitting data?
 
 For one, you can run into the risk to 'underfit' the model. This is essentially having a too small polynomial degree in your prediction function that misses much of the input data and has a rather large error score. To 'overfit' is the opposite extreme, where the algorithm models a function that apparently fits well into the training data, but is way too complex for the use case and therefore mispredicts future inputs. The solution is simple: More training data!
