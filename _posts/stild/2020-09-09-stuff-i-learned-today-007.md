@@ -7,7 +7,7 @@ tags: [stild]
 
 Today's post comes with aliens, advice for improving writing skills and a Mac OS virtual machine!
 
-# Books
+# Books 
 
 Two days ago I had a hand surgery and I could not do much coding or typing since then. So I read a lot. Here is some of it.
 
