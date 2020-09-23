@@ -27,8 +27,10 @@ jobs:
       - name: Push to Docker Hub
         uses: docker/build-push-action@v1
         with:
-          username: ${\{ secrets.DOCKER_USERNAME }}
-          password: ${\{ secrets.DOCKER_PASSWORD }}
+          username: $\{\{ secrets.DOCKER_USERNAME }}
+          password: $\{\{ secrets.DOCKER_PASSWORD }}
           repository: chrsengel/pytorch-gans
           tag_with_ref: true
 ```
+
+> Note that I had to add the backslashes to the `username` and `password` because the build script for this blog would otherwise try to enter these environment variables.
