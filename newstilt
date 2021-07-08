@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# date stuff
+HOUR=$(date +%H)
+DAY=$(date +%d)
+MONTH=$(date +%b | tr A-Z a-z)
+MONTH_NUM=$(date +%m)
+YEAR=$(date +%Y)
+
+# current number
+NUM=$(expr $(ls "$(pwd)/_posts/stild" | wc -l) + 1)
+NUM=$(printf "%03d" $NUM)
+
+# paths
+FOLDER="$(pwd)/_posts/stild"
+FILE="$YEAR-$MONTH_NUM-$DAY-stuff-i-learned-today-$NUM.md"
+
+# create file
+echo "---
+title: Stuff I learned today $NUM
+date: $YEAR-$MONTH_NUM-$DAY 22:00:00 +0200
+categories: [stuff i learned today]
+tags: [stild, ]
+--- " >> "$FOLDER/$FILE"
